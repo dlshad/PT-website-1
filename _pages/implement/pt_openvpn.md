@@ -330,7 +330,7 @@ screen ~/go/bin/shapeshifter-dispatcher -server -transparent -ptversion 2
 ~~~
 You will get this screen. Don’t forget to change the IP address and ports within the command.
 
-<img  src="/assests/images/Obfsservera.png" alt="Server Setup results screenshot" />
+<img  src="https://www.pluggabletransports.info/assets/images/Obfsservera.png" alt="Server Setup results screenshot" />
 
 Set NAT for shapeshifter-dispatcher on the server:   
 

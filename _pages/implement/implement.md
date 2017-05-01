@@ -13,6 +13,25 @@ header:
 sidebar:
     nav: "sidenav"
 ---
+**Platform Strategy
+**The two below tables represent the current and planned options across the platform landscape.
+
+***Current***
+
+|                               | **Windows**                                               | **OSX**                             | **Linux Server**                    | **Android**                            | **iOS**                             |
+|-------------------------------|-----------------------------------------------------------|-------------------------------------|-------------------------------------|----------------------------------------|-------------------------------------|
+| **Applications using PTs**    | [Tor Browser](http://torproject.org/), Lantern, Psiphon 3 | TorBrower, Lantern                  | tor, psiphon-tunnel-core            | Orbot, Lantern, Psiphon 3, FreeBrowser | OnionBrowser                        |
+| **PT Services**               | Dispatcher, obfs4proxy,                                   | Dispatcher, obfs4proxy              | Dispatcher, obfs4proxy              | Dispatcher, obfs4proxy                 | OnionBrowser custom obfs4proxy      |
+| **Integration Library**       | PT 2.0 Go API                                             | PT 2.0 Go API                       | PT 2.0 Go API                       | PLUTO, NetCipher                       | OnionBrowser custom API             |
+| **Implementation Transports** | shapeshifter-ipc (Go), goptlib (Go)                       | shapeshifter-ipc (Go), goptlib (Go) | shapeshifter-ipc (Go), goptlib (Go) | shapeshifter-ipc (Go), goptlib (Go)    | shapeshifter-ipc (Go), goptlib (Go) |
+
+***Future***
+
+|                               | **Windows**   | **OSX**       | **Linux**     | **Android**                | **iOS**                          |
+|-------------------------------|---------------|---------------|---------------|----------------------------|----------------------------------|
+| **PT Services**               | Dispatcher    | Dispatcher    | Dispatcher    | Dispatcher                 | Dispatcher, PT Network Extension |
+| **Integration Library**       | PT 2.1 Go API | PT 2.1 Go API | PT 2.1 Go API | PT 2.1 Java API (wraps Go) | PT 2.1 Swift API (native)        |
+| **Implementation Transports** | goptlib2 (Go) | goptlib2 (Go) | goptlib2 (Go) | goptlib2 (Go)              | N/A                              |
 
 **As a tool developer, the fastest way to get up and running is by using [Dispatcher](https://github.com/OperatorFoundation/shapeshifter-dispatcher), a tool developed by [The Operator Foundation](https://operatorfoundation.org/).**
 
